@@ -1,0 +1,63 @@
+body,html{font-family:cursive !important;
+background-color: beige;}
+.main-header {
+    width: 100%;
+    height: 150px;
+    float:left;
+    display: flex;
+    margin-bottom:2px;
+    align-content: center;
+}
+.main-header div:first-child{
+    width: 100px;
+    height: auto;
+    
+
+}
+.main-header-content{
+    width: calc(100% -100px );
+    padding: 15px;
+
+}
+.main-header-content img{
+    width: 100%;
+    border-radius: 40%;
+
+}
+.main-header-content h1{
+    padding-right: 20px;
+    color:rosybrown;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size:30px;
+    align-self: center;
+    float:right;
+    
+
+}
+.main-header-content h1:hover{
+    color:black;
+    font-size:large;
+    border-bottom: 0.2px blueviolet solid;
+    transition: 2s;
+    font-style: oblique;
+}
+
+/* banner */
+.banner-container{
+    background-image:url("mountains_reflection_wood_canada_colors_45566_1920x1080.jpg");
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    float:left;
+    padding-bottom: 0%;
+    height:280px;
+}
+.banner-details-container{
+    width:100%;
+    float: left;
+    /* background-color: rgb(0,0,0.7); */
+
+    /* opacity: 0.7; */
+    display: flex;
+    justify-content:left;
